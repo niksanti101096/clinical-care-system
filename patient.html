@@ -5,8 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <title>Document</title>
+        <style>
+            .patient {
+                width: 50px;
+                height: 50px;
+            }
+        </style>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img height="100px" width="100px" src="./asset/logo image.png" alt="">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarcollapse">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="">Home</a>
+                        <a class="nav-item nav-link" href="">Products</a>
+                        <a class="nav-item nav-link" href="">Services</a>
+                        <a class="nav-item nav-link" href="">About Us</a>
+                    </div>
+                     <div class="navbar-nav"><!-- ms-auto -->
+                        <a href="" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <div class="container mt-4">
             <h1>Clinical Care System</h1>
             <h3>Patient : </h3>
@@ -19,6 +46,7 @@
                         <th>Brithdate</th>
                         <th>Age</th>
                         <th>Email</th>
+                        <th>Photo</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -29,6 +57,7 @@
                         <td>June 10, 1980</td>
                         <td>43</td>
                         <td>oliverm@gmail.com</td>
+                        <td><img class="patient" src="./asset/patient1.jpg" alt="patient image"></td>
                     </tr>
                     <tr>
                         <td>Jack</td>
@@ -37,6 +66,7 @@
                         <td>January 1, 1958</td>
                         <td>65</td>
                         <td>jacko@gmail.com</td>
+                        <td><img class="patient" src="./asset/patient2.jpg" alt="patient image"></td>
                     </tr>
                     <tr>
                         <td>Harry</td>
@@ -45,6 +75,7 @@
                         <td>May 22, 1968</td>
                         <td>55</td>
                         <td>harryo@gmail.com</td>
+                        <td><img class="patient" src="./asset/patient3.jpg" alt="patient image"></td>
                     </tr>
                     <tr>
                         <td>Jacob</td>
@@ -53,6 +84,7 @@
                         <td>March 3, 1973</td>
                         <td>50</td>
                         <td>jacobw@gmail.com</td>
+                        <td><img class="patient" src="./asset/patient4.jpg" alt="patient image"></td>
                     </tr>
                     <tr>
                         <td>Charlie</td>
@@ -61,6 +93,7 @@
                         <td>March 5, 1995</td>
                         <td>28</td>
                         <td>charlies@gmail.com</td>
+                        <td><img class="patient" src="./asset/patient5.jpg" alt="patient image"></td>
                     </tr>
                 </tbody>
             </table>
